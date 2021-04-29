@@ -1,0 +1,21 @@
+{
+	"env": {
+		"commonjs": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": ["airbnb-base", "eslint:recommended", "prettier"],
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module"
+	},
+	"rules": {
+		"no-console": "off",
+		"no-alert": "off",
+		"no-useless-return": "off",
+		"no-await-in-loop": "off",
+		"class-methods-use-this": "off",
+		"no-plusplus": "off",
+		"prefer-destructuring": "off"
+	}
+}

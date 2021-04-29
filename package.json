@@ -4,7 +4,7 @@
   "description": "A repo for a basic GraphQL server made using [this tutorial](https://www.youtube.com/watch?v=ZQL7tL2S0oQ&list=WL&index=26&t=395s). This technology will likely be used in future projects.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,11 @@
     "graphql": "^15.5.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
   }
 }
